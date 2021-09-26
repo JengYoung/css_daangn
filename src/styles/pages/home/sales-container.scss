@@ -1,5 +1,5 @@
 .sales {
-  @include container(8rem);
+  @include container(8rem, block);
   display: block;
   text-align: center;
   background-color: $sales-section-bg-color;

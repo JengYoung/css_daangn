@@ -1,10 +1,12 @@
-@mixin container($padding-top: 0rem) {
-  display: flex;
-  padding: 0 15rem;
-  min-width: 1024px;
-  padding-top: $padding-top;
-  width: 100%;
-  box-sizing: border-box;
+@mixin container($padding-top: 0px, $display: flex) {
+  &.container {
+    display: $display;
+    padding: 0 15rem;
+    min-width: 1024px;
+    width: 100%;
+    padding-top: $padding-top;
+    box-sizing: border-box;
+  }
 }
 
 @mixin sectionCopies($margin-top: 0px, $maincopy-size: 3rem) {

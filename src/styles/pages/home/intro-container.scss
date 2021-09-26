@@ -1,9 +1,8 @@
-.intro-container {
-  @include container();
+.intro {
+  @include container($padding-top: 6rem);
   margin-top: $header-height;
   display: flex;
   position: relative;
-  padding-top: 6rem;
   background-color: $intro-section-bg-color;
   .intro__copy {
     @include sectionCopies(12.5rem);

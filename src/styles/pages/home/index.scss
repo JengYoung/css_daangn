@@ -3,7 +3,4 @@
 @import "@/styles/pages/home/neighbor-container";
 @import "@/styles/pages/home/mytown-container";
 @import "@/styles/pages/home/sales-container";
-
-.container {
-  @include container();
-}
+@import "@/styles/pages/home/trending-keywords-container";

@@ -1,10 +1,10 @@
-.market-more-container {
-  @include container();
+.market-more {
+  @include container($padding-top: 4rem);
   justify-content: space-between;
   background-color: $market-more-section-bg-color;
   .market-more__img {
-    margin: 4rem 0;
     height: 684px;
+    padding-bottom: 4rem;
   }
   .market-more__copy {
     @include sectionCopies(16rem, 2.5rem);

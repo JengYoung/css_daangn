@@ -1,5 +1,5 @@
 .mytown {
-  margin-top: 4rem;
+  @include container(4rem);
   justify-content: space-between;
   &__img {
     height: 740px;
