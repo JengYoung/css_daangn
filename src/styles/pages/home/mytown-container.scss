@@ -1,9 +1,9 @@
 .mytown {
-  @include container(4rem);
-  justify-content: space-between;
+  @include container($padding-top: 4rem, $padding-bottom: 4rem) {
+    justify-content: space-between;
+  }
   &__img {
     height: 740px;
-    margin-bottom: 4rem;
   }
   .mytown__details {
     @include sectionCopies(14rem, 2.5rem);

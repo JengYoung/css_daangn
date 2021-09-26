@@ -1,6 +1,6 @@
-@mixin container($padding-top: 0px, $display: flex, $padding-bottom: 0px) {
+@mixin container($padding-top: 0px, $padding-bottom: 0px) {
   &.container {
-    display: $display;
+    display: flex;
     padding: 0 15rem;
     width: 100%;
     box-sizing: border-box;

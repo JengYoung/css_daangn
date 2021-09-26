@@ -1,10 +1,8 @@
 .sales {
-  @include container(8rem, block);
-  display: block;
-  text-align: center;
-  background-color: $sales-section-bg-color;
-  &.container {
-    padding-bottom: 11rem;
+  @include container($padding-top: 8rem, $padding-bottom: 11rem) {
+    display: block;
+    text-align: center;
+    background-color: $sales-section-bg-color;
   }
 
   &__head {

@@ -1,7 +1,8 @@
 .market-more {
-  @include container($padding-top: 4rem, $padding-bottom: 4rem);
-  justify-content: space-between;
-  background-color: $market-more-section-bg-color;
+  @include container($padding-top: 4rem, $padding-bottom: 4rem) {
+    justify-content: space-between;
+    background-color: $market-more-section-bg-color;
+  }
   .market-more__img {
     height: 684px;
   }

@@ -1,8 +1,6 @@
 .trending-keywords {
-  @include container(3rem);
-  flex-direction: column;
-  &.container {
-    padding-bottom: 3rem;
+  @include container($padding-top: 3rem, $padding-bottom: 3rem) {
+    flex-direction: column;
   }
   &__more-link {
     padding-bottom: 1rem;

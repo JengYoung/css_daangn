@@ -58,14 +58,16 @@
       }
     }
     .options__chatting-link {
-      padding: 0.5rem 0.25rem;
+      padding: 0.5rem 0.75rem;
       border: 1px solid #{$gray200-color};
       border-radius: 0.375rem;
       color: $black-color;
       font-weight: 700;
       text-decoration: none;
       strong {
+        vertical-align: top;
         color: $orange-color;
+        font-size: 0.875rem;
       }
     }
   }
