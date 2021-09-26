@@ -8,15 +8,45 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Sharp" rel="stylesheet">
 </head>
 <body>
-  <header class="header"></header>
-  <main class="main">
-    <section class="section__intro"></section>
-    <section class="section__about"></section>
-    <section class="section__neighbor"></section>
-    <section class="section__mytown"></section>
-    <section class="section__sales"></section>
-    <section class="section__trending-keywords"></section>
-  </main>
-  <footer class="footer"></footer>
+  <div id="app">
+    <header class="header">
+      <img 
+        src="https://d1unjqcospf8gs.cloudfront.net/assets/home/base/header/logo-basic-24b18257ac4ef693c02233bf21e9cb7ecbf43ebd8d5b40c24d99e14094a44c81.svg" 
+        alt="" 
+        class="header__logo"
+      >
+      <form action="" class="header__form">
+        <input type="text" class="form__input" placeholder="동네 이름, 물품명 등을 검색해보세요!">
+        <button class="form__btn">
+          <span class="material-icons size-125">
+            search
+          </span>
+        </button>
+      </form>
+      <section class="header__options">
+        <button class="options__option-download">
+          <span>다운로드</span>
+          <div class="material-icons">
+            keyboard_arrow_down
+          </div>
+        </button>
+        <a href="" class="options__chatting-link">
+          <span>
+            당근채팅
+            <strong>Beta</strong>
+          </span>
+        </a>
+      </section>
+    </header>
+    <main class="main">
+      <section class="section__intro"></section>
+      <section class="section__about"></section>
+      <section class="section__neighbor"></section>
+      <section class="section__mytown"></section>
+      <section class="section__sales"></section>
+      <section class="section__trending-keywords"></section>
+    </main>
+    <footer class="footer"></footer>
+  </div>
 </body>
 </html>

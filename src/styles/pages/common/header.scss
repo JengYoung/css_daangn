@@ -1,0 +1,64 @@
+.header {
+  @include container();
+  display: flex;
+  align-items: center;
+  height: 4.5rem;
+  border-bottom: 1px solid;
+
+  &__logo {
+    position: relative;
+    top: -0.125rem;
+    height: 2.125rem;
+    margin-right: 2rem;
+  }
+  &__form {
+    display: flex;
+    align-items: center;
+    padding: 0 0.5rem;
+    width: 24rem;
+    height: 2.25rem;
+    border: 1px solid $gray100-color;
+    border-radius: 0.25rem;
+    .form__input {
+      width: 100%;
+      border: none;
+      outline: none;
+    }
+    .form__btn {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  &__options {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    .options__option-download {
+      display: flex;
+      align-items: center;
+      color: $black-color;
+      font-size: 1rem;
+      white-space: nowrap;
+      margin-right: 1rem;
+      span {
+        font-weight: 700;
+      }
+      .material-icons {
+        color: $black-color;
+        font-weight: 100;
+      }
+    }
+    .options__chatting-link {
+      padding: 0.5rem 0.25rem;
+      border: 1px solid #{$gray200-color};
+      border-radius: 0.375rem;
+      text-decoration: none;
+      color: $black-color;
+      font-weight: 700;
+      strong {
+        color: $orange-color;
+      }
+    }
+  }
+}
