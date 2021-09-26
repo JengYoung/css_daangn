@@ -1,0 +1,30 @@
+.section__intro {
+  @include container();
+  margin-top: $header-height;
+  display: flex;
+  position: relative;
+  padding-top: 6rem;
+  background-color: $intro-section-bg-color;
+  .intro__copy {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12.5rem;
+    width: 40rem;
+    word-break: keep-all;
+    .copy__main-copy {
+      p {
+        white-space: nowrap;
+        font-size: 3rem;
+      }
+    }
+    .copy__sub-copy {
+      white-space: nowrap;
+      margin-top: 2rem;
+      font-weight: 400;
+    }
+  }
+  .intro__img {
+    position: relative;
+    height: 685px;
+  }
+}
