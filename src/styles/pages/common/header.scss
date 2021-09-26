@@ -4,10 +4,11 @@
   position: fixed;
   align-items: center;
   top: 0;
+  width: 100%;
   height: $header-height;
   border-bottom: 1px solid $gray100-color;
   background-color: white;
-  z-index: 10;
+  z-index: 100;
 
   &__logo {
     position: relative;

@@ -19,6 +19,7 @@ module.exports = {
       "justify-content",
       "align-items",
       "flex-shrink",
+      "text-overflow",
       "overflow",
       "top",
       "left",

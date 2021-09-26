@@ -3,7 +3,9 @@
   display: block;
   text-align: center;
   background-color: $sales-section-bg-color;
-  padding-bottom: 11rem;
+  &.container {
+    padding-bottom: 11rem;
+  }
 
   &__head {
     font-size: 2.5rem;

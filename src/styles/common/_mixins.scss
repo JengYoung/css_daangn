@@ -1,11 +1,13 @@
-@mixin container($padding-top: 0px, $display: flex) {
+@mixin container($padding-top: 0px, $display: flex, $padding-bottom: 0px) {
   &.container {
     display: $display;
     padding: 0 15rem;
-    min-width: 1024px;
     width: 100%;
-    padding-top: $padding-top;
     box-sizing: border-box;
+    min-width: 1024px;
+    padding-top: $padding-top;
+    padding-bottom: $padding-bottom;
+    @content;
   }
 }
 

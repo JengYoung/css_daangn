@@ -1,3 +1,26 @@
 .trending-keywords {
-  @include container(5rem);
+  @include container(3rem);
+  flex-direction: column;
+  &.container {
+    padding-bottom: 3rem;
+  }
+  &__more-link {
+    padding-bottom: 1rem;
+    color: $black-color;
+    font-weight: 700;
+  }
+  &__keywords {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    .keywords__keyword > a {
+      text-decoration: none;
+      color: $black-color;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 }
