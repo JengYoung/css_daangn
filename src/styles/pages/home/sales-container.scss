@@ -1,0 +1,53 @@
+.sales {
+  @include container(8rem);
+  display: block;
+  text-align: center;
+  background-color: $sales-section-bg-color;
+  padding-bottom: 11rem;
+
+  &__head {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 5rem;
+  }
+
+  .sales__products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .products__product {
+      width: calc(25% - 2rem);
+      margin-bottom: 3rem;
+      .product__img {
+        height: 13rem;
+        border-radius: 0.75rem;
+      }
+    }
+    .product__details {
+      padding-left: 0.5rem;
+      text-align: left;
+      .details__title,
+      .details__address {
+        font-weight: 400;
+      }
+      .details__price {
+        padding: 0.25rem 0;
+      }
+      .details__address {
+        padding-bottom: 0.25rem;
+      }
+      .details__reactions {
+        color: $gray300-color;
+        font-size: 0.8125rem;
+        .reactions__comment::before {
+          content: "·";
+          margin: 0 0.25rem;
+        }
+      }
+    }
+  }
+  &__more-link {
+    color: $black-color;
+    font-weight: 700;
+  }
+}

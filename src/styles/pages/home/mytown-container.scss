@@ -1,0 +1,16 @@
+.mytown {
+  margin-top: 4rem;
+  justify-content: space-between;
+  &__img {
+    height: 740px;
+    margin-bottom: 4rem;
+  }
+  .mytown__details {
+    @include sectionCopies(14rem, 2.5rem);
+    .mytown-find-btn {
+      @include sectionBtn(15rem, 1rem 1.5rem);
+      margin-top: 2rem;
+      width: 15rem;
+    }
+  }
+}

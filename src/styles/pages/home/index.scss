@@ -1,3 +1,9 @@
 @import "@/styles/pages/home/intro-container";
 @import "@/styles/pages/home/market-more-container";
 @import "@/styles/pages/home/neighbor-container";
+@import "@/styles/pages/home/mytown-container";
+@import "@/styles/pages/home/sales-container";
+
+.container {
+  @include container();
+}
