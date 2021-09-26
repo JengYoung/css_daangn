@@ -1,0 +1,25 @@
+.market-more-container {
+  @include container();
+  justify-content: space-between;
+  background-color: $market-more-section-bg-color;
+  .market-more__img {
+    margin: 4rem 0;
+    height: 684px;
+  }
+  .market-more__copy {
+    @include sectionCopies(16rem, 2.5rem);
+  }
+  .market-more__btns {
+    display: flex;
+    margin-top: 2rem;
+    .btns__popular-sales-more-btn,
+    .btns__about-more-btn {
+      padding: 1rem 2rem;
+      border-radius: 0.25rem;
+      background-color: $gray100-color;
+      font-size: 1.125rem;
+      font-weight: 700;
+      margin-right: 1rem;
+    }
+  }
+}
