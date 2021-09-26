@@ -1,0 +1,26 @@
+.neighbor-container {
+  @include container(4.5rem);
+  display: flex;
+  padding-bottom: 4rem;
+  background-color: $neighbor-section-bg-color;
+  .neighbor__copy {
+    @include sectionCopies(10rem, 2.5rem);
+  }
+  .neighbor__categories {
+    display: flex;
+    margin-top: 2rem;
+    .categories__category {
+      h5 {
+        margin-top: 0.5rem;
+      }
+      .category__description {
+        margin-top: 0.5rem;
+        font-size: 0.8125rem;
+        word-break: keep-all;
+      }
+    }
+  }
+  .neighbor__img {
+    height: 740px;
+  }
+}
