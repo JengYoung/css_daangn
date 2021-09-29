@@ -26,6 +26,11 @@
     .product__details {
       padding-left: 0.5rem;
       text-align: left;
+      .details__title {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+      }
       .details__title,
       .details__address {
         font-weight: 400;
