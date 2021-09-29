@@ -30,6 +30,7 @@
 }
 
 @mixin sectionBtn($width: auto, $padding: 1rem 2rem) {
+  flex-shrink: 0;
   padding: $padding;
   width: $width;
   border-radius: 0.25rem;

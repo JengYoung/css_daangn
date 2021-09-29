@@ -5,6 +5,7 @@
   }
 
   &__links {
+    min-width: 1024px;
     display: flex;
     justify-content: space-between;
     .links__link-list {
