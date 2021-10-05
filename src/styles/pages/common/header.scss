@@ -13,7 +13,7 @@
     display: flex;
     position: relative;
     margin: 0 auto;
-    width: 1024px;
+    min-width: 1024px;
   }
   &__logo {
     position: relative;
@@ -42,9 +42,9 @@
   }
   &__options {
     display: flex;
-    position: absolute;
+    position: relative;
     justify-content: center;
-    // margin-left: auto;
+    margin-left: auto;
     right: 0;
     .options__option-download {
       display: flex;
